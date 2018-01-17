@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2212AD532003AE9B00BD98B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD522003AE9B00BD98B5 /* AppDelegate.m */; };
+		2212AD562003AE9B00BD98B5 /* HTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD552003AE9B00BD98B5 /* HTHomeViewController.m */; };
+		2212AD592003AE9B00BD98B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2212AD572003AE9B00BD98B5 /* Main.storyboard */; };
+		2212AD5B2003AE9B00BD98B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2212AD5A2003AE9B00BD98B5 /* Assets.xcassets */; };
+		2212AD5E2003AE9B00BD98B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2212AD5C2003AE9B00BD98B5 /* LaunchScreen.storyboard */; };
+		2212AD612003AE9B00BD98B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD602003AE9B00BD98B5 /* main.m */; };
+		2212AD6B2003AE9C00BD98B5 /* HowToSpendTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD6A2003AE9C00BD98B5 /* HowToSpendTimeTests.m */; };
+		2212AD762003AE9C00BD98B5 /* HowToSpendTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD752003AE9C00BD98B5 /* HowToSpendTimeUITests.m */; };
+		2212AD872003B8CB00BD98B5 /* HTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD862003B8CB00BD98B5 /* HTAPIClient.m */; };
+		2212AD8F200412C600BD98B5 /* NSDate+HowToSpendTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD8E200412C600BD98B5 /* NSDate+HowToSpendTime.m */; };
+		2212AD9220069C2300BD98B5 /* HTEventsAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD9120069C2300BD98B5 /* HTEventsAPIClient.m */; };
+		2212AD962006A38600BD98B5 /* HTURLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD952006A38600BD98B5 /* HTURLConstants.m */; };
+		2212AD9A2006B88400BD98B5 /* HTEventsModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD992006B88400BD98B5 /* HTEventsModelManager.m */; };
+		2212AD9E2007FBAA00BD98B5 /* HTEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AD9D2007FBAA00BD98B5 /* HTEvent.m */; };
+		2212ADA1200A433900BD98B5 /* HTEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADA0200A433900BD98B5 /* HTEvents.m */; };
+		2212ADA7200B6E6F00BD98B5 /* HTEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADA6200B6E6F00BD98B5 /* HTEventTableViewCell.m */; };
+		2212ADAA200B94AD00BD98B5 /* UITextView+HowToSpendTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADA9200B94AD00BD98B5 /* UITextView+HowToSpendTime.m */; };
+		2212ADAE200B98F200BD98B5 /* HTEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADAD200B98F200BD98B5 /* HTEventViewController.m */; };
+		2212ADB2200BB1E900BD98B5 /* HTHeaderEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADB1200BB1E900BD98B5 /* HTHeaderEventTableViewCell.m */; };
+		2212ADB5200BB2CF00BD98B5 /* HTEventContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADB4200BB2CF00BD98B5 /* HTEventContentTableViewCell.m */; };
+		2212ADB8200BB32F00BD98B5 /* HTEventImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADB7200BB32F00BD98B5 /* HTEventImagesTableViewCell.m */; };
+		2212ADBB200BDE3300BD98B5 /* HTImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ADBA200BDE3300BD98B5 /* HTImageManager.m */; };
+		221C7B4A200FE87D00ABFE43 /* HTCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C7B48200FE87D00ABFE43 /* HTCalendar.m */; };
+		221C7B4B200FE87D00ABFE43 /* HTCalendarDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C7B49200FE87D00ABFE43 /* HTCalendarDay.m */; };
+		2274DB10200FEA5D0058F71D /* CalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274DB0F200FEA5D0058F71D /* CalendarCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2212AD672003AE9C00BD98B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2212AD462003AE9B00BD98B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2212AD4D2003AE9B00BD98B5;
+			remoteInfo = HowToSpendTime;
+		};
+		2212AD722003AE9C00BD98B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2212AD462003AE9B00BD98B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2212AD4D2003AE9B00BD98B5;
+			remoteInfo = HowToSpendTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2212AD4E2003AE9B00BD98B5 /* HowToSpendTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToSpendTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2212AD512003AE9B00BD98B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2212AD522003AE9B00BD98B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2212AD542003AE9B00BD98B5 /* HTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTHomeViewController.h; sourceTree = "<group>"; };
+		2212AD552003AE9B00BD98B5 /* HTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTHomeViewController.m; sourceTree = "<group>"; };
+		2212AD582003AE9B00BD98B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2212AD5A2003AE9B00BD98B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2212AD5D2003AE9B00BD98B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2212AD5F2003AE9B00BD98B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2212AD602003AE9B00BD98B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2212AD662003AE9C00BD98B5 /* HowToSpendTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToSpendTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2212AD6A2003AE9C00BD98B5 /* HowToSpendTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowToSpendTimeTests.m; sourceTree = "<group>"; };
+		2212AD6C2003AE9C00BD98B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2212AD712003AE9C00BD98B5 /* HowToSpendTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToSpendTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2212AD752003AE9C00BD98B5 /* HowToSpendTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowToSpendTimeUITests.m; sourceTree = "<group>"; };
+		2212AD772003AE9C00BD98B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2212AD862003B8CB00BD98B5 /* HTAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAPIClient.m; sourceTree = "<group>"; };
+		2212AD882003BA2400BD98B5 /* HTAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAPIClient.h; sourceTree = "<group>"; };
+		2212AD8D200412C600BD98B5 /* NSDate+HowToSpendTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+HowToSpendTime.h"; sourceTree = "<group>"; };
+		2212AD8E200412C600BD98B5 /* NSDate+HowToSpendTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HowToSpendTime.m"; sourceTree = "<group>"; };
+		2212AD9020069C2300BD98B5 /* HTEventsAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEventsAPIClient.h; sourceTree = "<group>"; };
+		2212AD9120069C2300BD98B5 /* HTEventsAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEventsAPIClient.m; sourceTree = "<group>"; };
+		2212AD942006A33800BD98B5 /* HTURLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTURLConstants.h; sourceTree = "<group>"; };
+		2212AD952006A38600BD98B5 /* HTURLConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTURLConstants.m; sourceTree = "<group>"; };
+		2212AD982006B88400BD98B5 /* HTEventsModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEventsModelManager.h; sourceTree = "<group>"; };
+		2212AD992006B88400BD98B5 /* HTEventsModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEventsModelManager.m; sourceTree = "<group>"; };
+		2212AD9C2007FBAA00BD98B5 /* HTEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEvent.h; sourceTree = "<group>"; };
+		2212AD9D2007FBAA00BD98B5 /* HTEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEvent.m; sourceTree = "<group>"; };
+		2212AD9F200A433900BD98B5 /* HTEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEvents.h; sourceTree = "<group>"; };
+		2212ADA0200A433900BD98B5 /* HTEvents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEvents.m; sourceTree = "<group>"; };
+		2212ADA5200B6E6F00BD98B5 /* HTEventTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEventTableViewCell.h; sourceTree = "<group>"; };
+		2212ADA6200B6E6F00BD98B5 /* HTEventTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEventTableViewCell.m; sourceTree = "<group>"; };
+		2212ADA8200B94AD00BD98B5 /* UITextView+HowToSpendTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+HowToSpendTime.h"; sourceTree = "<group>"; };
+		2212ADA9200B94AD00BD98B5 /* UITextView+HowToSpendTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HowToSpendTime.m"; sourceTree = "<group>"; };
+		2212ADAC200B98F200BD98B5 /* HTEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEventViewController.h; sourceTree = "<group>"; };
+		2212ADAD200B98F200BD98B5 /* HTEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEventViewController.m; sourceTree = "<group>"; };
+		2212ADB0200BB1E900BD98B5 /* HTHeaderEventTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTHeaderEventTableViewCell.h; sourceTree = "<group>"; };
+		2212ADB1200BB1E900BD98B5 /* HTHeaderEventTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTHeaderEventTableViewCell.m; sourceTree = "<group>"; };
+		2212ADB3200BB2CF00BD98B5 /* HTEventContentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEventContentTableViewCell.h; sourceTree = "<group>"; };
+		2212ADB4200BB2CF00BD98B5 /* HTEventContentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEventContentTableViewCell.m; sourceTree = "<group>"; };
+		2212ADB6200BB32F00BD98B5 /* HTEventImagesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTEventImagesTableViewCell.h; sourceTree = "<group>"; };
+		2212ADB7200BB32F00BD98B5 /* HTEventImagesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTEventImagesTableViewCell.m; sourceTree = "<group>"; };
+		2212ADB9200BDE3300BD98B5 /* HTImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTImageManager.h; sourceTree = "<group>"; };
+		2212ADBA200BDE3300BD98B5 /* HTImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTImageManager.m; sourceTree = "<group>"; };
+		221C7B46200FE87D00ABFE43 /* HTCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCalendarDay.h; sourceTree = "<group>"; };
+		221C7B47200FE87D00ABFE43 /* HTCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCalendar.h; sourceTree = "<group>"; };
+		221C7B48200FE87D00ABFE43 /* HTCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCalendar.m; sourceTree = "<group>"; };
+		221C7B49200FE87D00ABFE43 /* HTCalendarDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCalendarDay.m; sourceTree = "<group>"; };
+		2274DB0E200FEA5D0058F71D /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarCollectionViewCell.h; path = HowToSpendTime/Controllers/CalendarView/CalendarCollectionViewCell.h; sourceTree = SOURCE_ROOT; };
+		2274DB0F200FEA5D0058F71D /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarCollectionViewCell.m; path = HowToSpendTime/Controllers/CalendarView/CalendarCollectionViewCell.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2212AD4B2003AE9B00BD98B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2212AD632003AE9C00BD98B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2212AD6E2003AE9C00BD98B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2212AD452003AE9B00BD98B5 = {
+			isa = PBXGroup;
+			children = (
+				2212AD502003AE9B00BD98B5 /* HowToSpendTime */,
+				2212AD692003AE9C00BD98B5 /* HowToSpendTimeTests */,
+				2212AD742003AE9C00BD98B5 /* HowToSpendTimeUITests */,
+				2212AD4F2003AE9B00BD98B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2212AD4F2003AE9B00BD98B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD4E2003AE9B00BD98B5 /* HowToSpendTime.app */,
+				2212AD662003AE9C00BD98B5 /* HowToSpendTimeTests.xctest */,
+				2212AD712003AE9C00BD98B5 /* HowToSpendTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2212AD502003AE9B00BD98B5 /* HowToSpendTime */ = {
+			isa = PBXGroup;
+			children = (
+				2212ADA2200B6C5900BD98B5 /* Controllers */,
+				2212AD9B2007FB5400BD98B5 /* Models */,
+				2212AD972006B85600BD98B5 /* Managers */,
+				2212AD5F2003AE9B00BD98B5 /* Info.plist */,
+				2212AD89200411E800BD98B5 /* Extensions */,
+				2212AD932006A2EB00BD98B5 /* Constants */,
+				2212AD842003B3E900BD98B5 /* HowToSpendTimeAPI */,
+				2212AD5A2003AE9B00BD98B5 /* Assets.xcassets */,
+				2212AD832003B0A400BD98B5 /* SupportingFiles */,
+			);
+			path = HowToSpendTime;
+			sourceTree = "<group>";
+		};
+		2212AD692003AE9C00BD98B5 /* HowToSpendTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD6A2003AE9C00BD98B5 /* HowToSpendTimeTests.m */,
+				2212AD6C2003AE9C00BD98B5 /* Info.plist */,
+			);
+			path = HowToSpendTimeTests;
+			sourceTree = "<group>";
+		};
+		2212AD742003AE9C00BD98B5 /* HowToSpendTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD752003AE9C00BD98B5 /* HowToSpendTimeUITests.m */,
+				2212AD772003AE9C00BD98B5 /* Info.plist */,
+			);
+			path = HowToSpendTimeUITests;
+			sourceTree = "<group>";
+		};
+		2212AD832003B0A400BD98B5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD602003AE9B00BD98B5 /* main.m */,
+				2212AD512003AE9B00BD98B5 /* AppDelegate.h */,
+				2212AD522003AE9B00BD98B5 /* AppDelegate.m */,
+				2212AD572003AE9B00BD98B5 /* Main.storyboard */,
+				2212AD5C2003AE9B00BD98B5 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2212AD842003B3E900BD98B5 /* HowToSpendTimeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD852003B47D00BD98B5 /* Network */,
+				2212AD9020069C2300BD98B5 /* HTEventsAPIClient.h */,
+				2212AD9120069C2300BD98B5 /* HTEventsAPIClient.m */,
+			);
+			path = HowToSpendTimeAPI;
+			sourceTree = "<group>";
+		};
+		2212AD852003B47D00BD98B5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD882003BA2400BD98B5 /* HTAPIClient.h */,
+				2212AD862003B8CB00BD98B5 /* HTAPIClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2212AD89200411E800BD98B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD8D200412C600BD98B5 /* NSDate+HowToSpendTime.h */,
+				2212AD8E200412C600BD98B5 /* NSDate+HowToSpendTime.m */,
+				2212ADA8200B94AD00BD98B5 /* UITextView+HowToSpendTime.h */,
+				2212ADA9200B94AD00BD98B5 /* UITextView+HowToSpendTime.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2212AD932006A2EB00BD98B5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD942006A33800BD98B5 /* HTURLConstants.h */,
+				2212AD952006A38600BD98B5 /* HTURLConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2212AD972006B85600BD98B5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2212AD982006B88400BD98B5 /* HTEventsModelManager.h */,
+				2212AD992006B88400BD98B5 /* HTEventsModelManager.m */,
+				2212ADB9200BDE3300BD98B5 /* HTImageManager.h */,
+				2212ADBA200BDE3300BD98B5 /* HTImageManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2212AD9B2007FB5400BD98B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				221C7B47200FE87D00ABFE43 /* HTCalendar.h */,
+				221C7B48200FE87D00ABFE43 /* HTCalendar.m */,
+				221C7B46200FE87D00ABFE43 /* HTCalendarDay.h */,
+				221C7B49200FE87D00ABFE43 /* HTCalendarDay.m */,
+				2212AD9C2007FBAA00BD98B5 /* HTEvent.h */,
+				2212AD9D2007FBAA00BD98B5 /* HTEvent.m */,
+				2212AD9F200A433900BD98B5 /* HTEvents.h */,
+				2212ADA0200A433900BD98B5 /* HTEvents.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2212ADA2200B6C5900BD98B5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2274DB0D200FEA4B0058F71D /* CalendarView */,
+				2212ADAB200B98CE00BD98B5 /* EventViewController */,
+				2212ADA3200B6CF300BD98B5 /* HomeViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2212ADA3200B6CF300BD98B5 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2212ADA4200B6E0500BD98B5 /* Cells */,
+				2212AD542003AE9B00BD98B5 /* HTHomeViewController.h */,
+				2212AD552003AE9B00BD98B5 /* HTHomeViewController.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		2212ADA4200B6E0500BD98B5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2212ADA5200B6E6F00BD98B5 /* HTEventTableViewCell.h */,
+				2212ADA6200B6E6F00BD98B5 /* HTEventTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2212ADAB200B98CE00BD98B5 /* EventViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2212ADAF200BB1A700BD98B5 /* Cells */,
+				2212ADAC200B98F200BD98B5 /* HTEventViewController.h */,
+				2212ADAD200B98F200BD98B5 /* HTEventViewController.m */,
+			);
+			path = EventViewController;
+			sourceTree = "<group>";
+		};
+		2212ADAF200BB1A700BD98B5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2212ADB0200BB1E900BD98B5 /* HTHeaderEventTableViewCell.h */,
+				2212ADB1200BB1E900BD98B5 /* HTHeaderEventTableViewCell.m */,
+				2212ADB3200BB2CF00BD98B5 /* HTEventContentTableViewCell.h */,
+				2212ADB4200BB2CF00BD98B5 /* HTEventContentTableViewCell.m */,
+				2212ADB6200BB32F00BD98B5 /* HTEventImagesTableViewCell.h */,
+				2212ADB7200BB32F00BD98B5 /* HTEventImagesTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2274DB0D200FEA4B0058F71D /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				2274DB0E200FEA5D0058F71D /* CalendarCollectionViewCell.h */,
+				2274DB0F200FEA5D0058F71D /* CalendarCollectionViewCell.m */,
+			);
+			name = CalendarView;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2212AD4D2003AE9B00BD98B5 /* HowToSpendTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2212AD7A2003AE9C00BD98B5 /* Build configuration list for PBXNativeTarget "HowToSpendTime" */;
+			buildPhases = (
+				2212AD4A2003AE9B00BD98B5 /* Sources */,
+				2212AD4B2003AE9B00BD98B5 /* Frameworks */,
+				2212AD4C2003AE9B00BD98B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowToSpendTime;
+			productName = HowToSpendTime;
+			productReference = 2212AD4E2003AE9B00BD98B5 /* HowToSpendTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2212AD652003AE9C00BD98B5 /* HowToSpendTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2212AD7D2003AE9C00BD98B5 /* Build configuration list for PBXNativeTarget "HowToSpendTimeTests" */;
+			buildPhases = (
+				2212AD622003AE9C00BD98B5 /* Sources */,
+				2212AD632003AE9C00BD98B5 /* Frameworks */,
+				2212AD642003AE9C00BD98B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2212AD682003AE9C00BD98B5 /* PBXTargetDependency */,
+			);
+			name = HowToSpendTimeTests;
+			productName = HowToSpendTimeTests;
+			productReference = 2212AD662003AE9C00BD98B5 /* HowToSpendTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2212AD702003AE9C00BD98B5 /* HowToSpendTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2212AD802003AE9C00BD98B5 /* Build configuration list for PBXNativeTarget "HowToSpendTimeUITests" */;
+			buildPhases = (
+				2212AD6D2003AE9C00BD98B5 /* Sources */,
+				2212AD6E2003AE9C00BD98B5 /* Frameworks */,
+				2212AD6F2003AE9C00BD98B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2212AD732003AE9C00BD98B5 /* PBXTargetDependency */,
+			);
+			name = HowToSpendTimeUITests;
+			productName = HowToSpendTimeUITests;
+			productReference = 2212AD712003AE9C00BD98B5 /* HowToSpendTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2212AD462003AE9B00BD98B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Smart Capitan";
+				TargetAttributes = {
+					2212AD4D2003AE9B00BD98B5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2212AD652003AE9C00BD98B5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2212AD4D2003AE9B00BD98B5;
+					};
+					2212AD702003AE9C00BD98B5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2212AD4D2003AE9B00BD98B5;
+					};
+				};
+			};
+			buildConfigurationList = 2212AD492003AE9B00BD98B5 /* Build configuration list for PBXProject "HowToSpendTime" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2212AD452003AE9B00BD98B5;
+			productRefGroup = 2212AD4F2003AE9B00BD98B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2212AD4D2003AE9B00BD98B5 /* HowToSpendTime */,
+				2212AD652003AE9C00BD98B5 /* HowToSpendTimeTests */,
+				2212AD702003AE9C00BD98B5 /* HowToSpendTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2212AD4C2003AE9B00BD98B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2212AD5E2003AE9B00BD98B5 /* LaunchScreen.storyboard in Resources */,
+				2212AD5B2003AE9B00BD98B5 /* Assets.xcassets in Resources */,
+				2212AD592003AE9B00BD98B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2212AD642003AE9C00BD98B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2212AD6F2003AE9C00BD98B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2212AD4A2003AE9B00BD98B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2274DB10200FEA5D0058F71D /* CalendarCollectionViewCell.m in Sources */,
+				2212AD962006A38600BD98B5 /* HTURLConstants.m in Sources */,
+				2212AD562003AE9B00BD98B5 /* HTHomeViewController.m in Sources */,
+				2212AD872003B8CB00BD98B5 /* HTAPIClient.m in Sources */,
+				2212AD9220069C2300BD98B5 /* HTEventsAPIClient.m in Sources */,
+				2212AD612003AE9B00BD98B5 /* main.m in Sources */,
+				2212ADB2200BB1E900BD98B5 /* HTHeaderEventTableViewCell.m in Sources */,
+				221C7B4A200FE87D00ABFE43 /* HTCalendar.m in Sources */,
+				2212AD8F200412C600BD98B5 /* NSDate+HowToSpendTime.m in Sources */,
+				2212ADA1200A433900BD98B5 /* HTEvents.m in Sources */,
+				2212AD9E2007FBAA00BD98B5 /* HTEvent.m in Sources */,
+				2212AD9A2006B88400BD98B5 /* HTEventsModelManager.m in Sources */,
+				2212ADAE200B98F200BD98B5 /* HTEventViewController.m in Sources */,
+				2212ADAA200B94AD00BD98B5 /* UITextView+HowToSpendTime.m in Sources */,
+				2212ADA7200B6E6F00BD98B5 /* HTEventTableViewCell.m in Sources */,
+				2212ADB5200BB2CF00BD98B5 /* HTEventContentTableViewCell.m in Sources */,
+				221C7B4B200FE87D00ABFE43 /* HTCalendarDay.m in Sources */,
+				2212ADBB200BDE3300BD98B5 /* HTImageManager.m in Sources */,
+				2212ADB8200BB32F00BD98B5 /* HTEventImagesTableViewCell.m in Sources */,
+				2212AD532003AE9B00BD98B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2212AD622003AE9C00BD98B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2212AD6B2003AE9C00BD98B5 /* HowToSpendTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2212AD6D2003AE9C00BD98B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2212AD762003AE9C00BD98B5 /* HowToSpendTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2212AD682003AE9C00BD98B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2212AD4D2003AE9B00BD98B5 /* HowToSpendTime */;
+			targetProxy = 2212AD672003AE9C00BD98B5 /* PBXContainerItemProxy */;
+		};
+		2212AD732003AE9C00BD98B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2212AD4D2003AE9B00BD98B5 /* HowToSpendTime */;
+			targetProxy = 2212AD722003AE9C00BD98B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2212AD572003AE9B00BD98B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2212AD582003AE9B00BD98B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2212AD5C2003AE9B00BD98B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2212AD5D2003AE9B00BD98B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2212AD782003AE9C00BD98B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2212AD792003AE9C00BD98B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2212AD7B2003AE9C00BD98B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAAH7773HN;
+				INFOPLIST_FILE = HowToSpendTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcapitan.HowToSpendTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2212AD7C2003AE9C00BD98B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAAH7773HN;
+				INFOPLIST_FILE = HowToSpendTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcapitan.HowToSpendTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2212AD7E2003AE9C00BD98B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAAH7773HN;
+				INFOPLIST_FILE = HowToSpendTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcapitan.HowToSpendTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToSpendTime.app/HowToSpendTime";
+			};
+			name = Debug;
+		};
+		2212AD7F2003AE9C00BD98B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAAH7773HN;
+				INFOPLIST_FILE = HowToSpendTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcapitan.HowToSpendTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToSpendTime.app/HowToSpendTime";
+			};
+			name = Release;
+		};
+		2212AD812003AE9C00BD98B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAAH7773HN;
+				INFOPLIST_FILE = HowToSpendTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcapitan.HowToSpendTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToSpendTime;
+			};
+			name = Debug;
+		};
+		2212AD822003AE9C00BD98B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAAH7773HN;
+				INFOPLIST_FILE = HowToSpendTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcapitan.HowToSpendTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToSpendTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2212AD492003AE9B00BD98B5 /* Build configuration list for PBXProject "HowToSpendTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2212AD782003AE9C00BD98B5 /* Debug */,
+				2212AD792003AE9C00BD98B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2212AD7A2003AE9C00BD98B5 /* Build configuration list for PBXNativeTarget "HowToSpendTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2212AD7B2003AE9C00BD98B5 /* Debug */,
+				2212AD7C2003AE9C00BD98B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2212AD7D2003AE9C00BD98B5 /* Build configuration list for PBXNativeTarget "HowToSpendTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2212AD7E2003AE9C00BD98B5 /* Debug */,
+				2212AD7F2003AE9C00BD98B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2212AD802003AE9C00BD98B5 /* Build configuration list for PBXNativeTarget "HowToSpendTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2212AD812003AE9C00BD98B5 /* Debug */,
+				2212AD822003AE9C00BD98B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2212AD462003AE9B00BD98B5 /* Project object */;
+}
