@@ -44,7 +44,9 @@ typedef void(^failImageBlock)(NSError *error);
             dispatch_group_enter(imagesGroup);
                 [weakSelf imageFromUrl:imageUrl withCompletion:^(NSData *imageData) {
                     if (imageData) {
-                        [imagesDataArray addObject:imageData];
+                        @synchronized(self) {
+                            [imagesDataArray addObject:imageData];
+                        }
                     }
                     dispatch_group_leave(imagesGroup);
                 }];
